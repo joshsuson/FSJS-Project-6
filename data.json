@@ -1,0 +1,130 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "A Random Quote Generator",
+            "description": "An app that displays random famous quotes each time a button is clicked.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "http://jsuson.com/FSJS-Project-1/",
+            "github_link": "https://github.com/joshsuson/FSJS-Project-1",
+            "image_urls": [
+                {
+                    "projectNumber": "1",
+                    "imageType": "square",
+                    "url": "images/project-1-square.jpg"
+                },
+                {
+                    "projectNumber": "1",
+                    "imageType": "large",
+                    "url": "images/project-1-large.jpg"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "Using a common web development technique known as \"pagination\" to enhance the usability of a web page.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "http://jsuson.com/FSJS-Project-2/",
+            "github_link": "https://github.com/joshsuson/FSJS-Project-2",
+            "image_urls": [
+                {
+                    "projectNumber": "2",
+                    "imageType": "square",
+                    "url": "images/project-2-square.jpg"
+                },
+                {
+                    "projectNumber": "2",
+                    "imageType": "large",
+                    "url": "images/project-2-large.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "Using JavaScript to enhance an interactive registration form for a fictional conference called \"FullStack Conf.\"",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "http://jsuson.com/FSJS-Project-3/",
+            "github_link": "https://github.com/joshsuson/FSJS-Project-3",
+            "image_urls": [
+                {
+                    "projectNumber": "3",
+                    "imageType": "square",
+                    "url": "images/project-3-square.jpg"
+                },
+                {
+                    "projectNumber": "3",
+                    "imageType": "large",
+                    "url": "images/project-3-large.jpg"
+                }
+            ]  
+        },
+        {
+            "id": "3",
+            "project_name": "OOP Gameshow App",
+            "description": "A browser-based, word guessing game: \"Phrase Hunter.\" Using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "http://jsuson.com/FSJS-Project-4/",
+            "github_link": "https://github.com/joshsuson/FSJS-Project-4",
+            "image_urls": [
+                {
+                    "projectNumber": "4",
+                    "imageType": "square",
+                    "url": "images/project-4-square.jpg"
+                },
+                {
+                    "projectNumber": "4",
+                    "imageType": "large",
+                    "url": "images/project-4-large.jpg"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Public API Requests",
+            "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They needed a smart way for employees to share contact information with each other.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "AJAX"
+            ],
+            "live_link": "http://jsuson.com/FSJS-Project-5/",
+            "github_link": "https://github.com/joshsuson/FSJS-Project-5",
+            "image_urls": [
+                {
+                    "projectNumber": "5",
+                    "imageType": "square",
+                    "url": "images/project-5-square.jpg"
+                },
+                {
+                    "projectNumber": "5",
+                    "imageType": "large",
+                    "url": "images/project-5-large.jpg"
+                },
+                {
+                    "projectNumber": "5",
+                    "imageType": "large",
+                    "url": "images/project-5-large-2.jpg"
+                }
+            ]
+        }
+    ]
+}
