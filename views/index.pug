@@ -4,9 +4,9 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      h1 Let's build something amazing!
+      h1.main-heading Let's build something amazing!
 
-      p.lead.text-light
+      p.lead.text-light.main-description
         | Don't let the internet be frustrating. Instead take a look at the work of I've done and let me help you tell your story online.
   article.grid-container.portfolio-index
     
@@ -15,6 +15,6 @@ block content
       each project in projects
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src=`/static/${project.image_urls[0]}`)
-            h5 #{project.project_name}
+            img.thumbnail.project-img(src=`/static/${project.image_urls[0]}`)
+            h5.project-title #{project.project_name}
       

@@ -7,7 +7,7 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1 #{project_name}
+        h1.main-heading #{project_name}
 
         p.lead.text-light
           | #{description}
@@ -15,9 +15,9 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        ul
+        ul.skills-list
         each technology in technologies 
-          li #{technology}
+          li.skill #{technology}
 
         a.button.expanded(href=`${live_link}`, target='_blank') Live Demo
         a.button.expanded(href=`${github_link}`, target='_blank') GitHub Repo

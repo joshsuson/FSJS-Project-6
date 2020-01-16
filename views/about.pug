@@ -2,12 +2,12 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/').back-link ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1 Josh Suson
+        h1.main-heading Josh Suson
 
         p.lead.text-light
           | Full Stack JavaScript Developer.
@@ -18,29 +18,30 @@ block content
             br
             | I love stories and I believe that I can help you effectively tell yours in an increasingly crowded digital world. I have a strong desire to help people effectively communicate their story or their brand's story any way that I can.
         
-      .cell.portfolia-meta.small-6.medium-2.large-3
+      .cell.portfolia-meta.small-6.medium-2.large-3.skills-column
         h6 Skills
 
-        ul
-          li HTML
-          li CSS
-          li Sass
-          li Javascript
-          li Node.js 
-          li Photoshop
-          li Illustrator
-          li Premiere Pro
-          li Web Design
-          li Content Creation
-        h6 Contact Info
+        ul.skills-list
+          li.skill.html HTML
+          li.skill.css CSS
+          li.skill.sass Sass
+          li.skill.javascript Javascript
+          li.skill.node Node.js 
+          li.skill.photoshop Photoshop
+          li.skill.illustrator Illustrator
+          li.skill.premiere Premiere Pro
+          li.skill.design Web Design
+          li.skill.content Content Creation
+        .contact-info
+          h6 Contact Info
 
-        ul
-          li 580-736-4649
-          li josh.suson@gmail.com
+          ul
+            li 580-736-4649
+            li josh.suson@gmail.com
 
         a.button.expanded(href='https://www.linkedin.com/in/joshsuson/') LinkedIn
         a.button.expanded(href='https://github.com/joshsuson') GitHub
         a.button.expanded(href='https://www.twitter.com/joshsuson') Twitter
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/').back-link ← Back
   

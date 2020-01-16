@@ -1,0 +1,139 @@
+.profile-pic {
+    border: none;
+    box-shadow: none;
+}
+
+.profile-column {
+    background-color: #621f0b;
+}
+
+
+
+.project-img {
+    animation: grow-in .25s ease-in-out;
+    border: none;
+
+}
+
+.project-img:hover {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .25);
+}
+
+@keyframes grow-in {
+    0% {
+        transform: scale(0);
+        border-radius: 50%;
+    }
+    25% {
+        transform: scale(.25);
+        border-radius: 37.5%;
+    }
+    50% {
+        transform: scale(.5);
+        border-radius: 25%;
+    }
+    75% {
+        transform: scale(.75);
+        border-radius: 12.5%;
+    }
+    100% {
+        transform: scale(1);
+        border-radius: 0%;
+    }
+}
+
+.side-heading {
+    color: #c2b08e;
+}
+
+.side-link, .back-link {
+    color: #d83c0a !important;
+}
+
+.main-heading {
+    color: #a63811;
+}
+
+.main-description {
+    border-bottom: 1px solid #60594b;
+}
+
+.project-title {
+    color: #60594b;
+}
+
+.skills-column {
+    padding-left: 10px;
+}
+
+.skills-list {
+    list-style: none !important;
+    margin: 0;
+}
+
+.skill {
+    padding: 10px; 
+    background-color: grey;
+    color: white !important;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.contact-info {
+    padding: 20px 0;
+}
+
+.contact-info>ul {
+    list-style: none;
+    margin: 0;
+}
+
+.contact-info>ul>li {
+    font-size: 1.25em;
+}
+
+.portfolio-bio {
+    padding-right: 45px;
+}
+
+.html {
+    background-color: #d83c0a;
+}
+
+.css {
+    background-color: #621f0b;
+}
+
+.javascript {
+    background-color: #60594b;
+}
+
+.sass {
+    background-color: #a63811;
+}
+
+.node{
+    background-color: #0d191f;
+}
+
+.photoshop {
+    background-color: #c8986b;
+}
+
+.illustrator {
+    background-color: darksalmon;
+}
+
+.premiere {
+    background-color: goldenrod;
+}
+
+.design {
+    background-color: indigo;
+}
+
+.content {
+    background-color: seagreen;
+}

@@ -8,23 +8,24 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    link(rel='stylesheet', href='/static/css/my.css')
   body
-    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me.profile-column(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/images/profile-pic.png')
+            img.thumbnail.profile-pic(src='/static/images/profile-pic.png')
           .cell.auto
 
-            h5 Josh Suson
+            h5.side-heading Josh Suson
 
             p.text-light
               | A digital storyteller and web expert. The internet doesn't have to be frustrating. I specialize in simplifiying things like web and graphic design. Making them readily available to customers so that they can tell their story.
 
-            a(href='/about') Learn More →
+            a(href='/about').side-link Learn More →
 
-    .off-canvas-content(data-off-canvas-content='')
+    .off-canvas-content(data-off-canvas-content='').main-content
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')

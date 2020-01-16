@@ -2,7 +2,7 @@
   "name": "fsjs-project-6",
   "version": "1.0.0",
   "description": "Project 6 for the Full Stack Tech Degeree",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/joshsuson/FSJS-Project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.2",
     "pug": "^2.0.4"
   }
 }
