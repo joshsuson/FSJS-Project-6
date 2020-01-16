@@ -9,6 +9,7 @@
  **Home Page**
  * Removed border from images 
  * Created a grow in animation for project thumbnails
+ * Added box shadow on hover for project thumbnails
 
  **About Page**
  * Adjust spacing for columns
